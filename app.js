@@ -13,8 +13,11 @@ app.get("/", (req, res) => {
 })
 
 app.get("/capitals", (req, res) => {
-    res.status(200).send("")
+    res.status(200).send("capitals page working!")
 })
 
+app.post("/capitals", (req, res) => {
+    res.status(201).send("submission posted!");
+})
 
 module.exports = app;

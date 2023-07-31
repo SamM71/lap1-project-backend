@@ -1,0 +1,42 @@
+[
+    {
+        "country": "france",
+        "capital": "paris"
+    },
+    {
+        "country": "united kingdom",
+        "capital": "london"
+    },
+    {
+        "country": "germany",
+        "capital": "berlin"
+    },
+    {
+        "country": "china",
+        "capital": "beijing"
+    },
+    {
+        "country": "japan",
+        "capital": "tokyo"
+    },
+    {
+        "country": "egypt",
+        "capital": "cairo"
+    },
+    {
+        "country": "finland",
+        "capital": "helsinki"
+    },
+    {
+        "country": "poland",
+        "capital": "warsaw"
+    },
+    {
+        "country": "portugal",
+        "capital": "lisbon"
+    },
+    {
+        "country": "brazil",
+        "capital": "brasília"
+    }
+]
