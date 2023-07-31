@@ -38,10 +38,10 @@ app.get("/countries/:id", (req, res) => {
 })
 
 // Potentially useful code ?
-app.post("/countries", (req, res) => {
-    const newCountry = req.body;
-    countries.push(newCountry); 
-    res.status(201).send(newCountry);
-})
+// app.post("/countries", (req, res) => {
+//     const newCountry = req.body;
+//     countries.push(newCountry); 
+//     res.status(201).send(newCountry);
+// })
 
 module.exports = app;
