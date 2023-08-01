@@ -2,7 +2,8 @@ const express = require("express");
 const cors = require("cors");
 
 const logger = require("./logger");
-const countries = require("./countries");
+let countries = require("./countries");
+let appeared = [];
 
 const app = express();
 app.use(cors());
@@ -12,6 +13,11 @@ app.use(logger);
 function random() {
     const num = Math.floor(Math.random() * countries.length);
     return num;
+}
+function reAdd() {
+    while(appeared.length > 0) {
+        countries.push(appeared.pop());
+    }
 }
 
 app.get("/", (req, res) => {
@@ -23,7 +29,13 @@ app.get("/countries", (req, res) => {
 })
 
 app.get("/countries/random", (req, res) => {
-    const country = countries[random()];
+    const idx = random();
+    const country = countries[idx];
+    appeared.push(country);
+    countries.splice(idx, 1);
+    if(countries.length <= 0) {
+        reAdd();
+    }
     res.status(200).send(country);
 })
 
