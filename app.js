@@ -39,6 +39,7 @@ app.get("/countries/:id", (req, res) => {
 })
 
 app.get("/scores", (req, res) => {
+    scores.sort((a, b) => (b.score - a.score));
     res.status(200).send(scores);
 })
 
