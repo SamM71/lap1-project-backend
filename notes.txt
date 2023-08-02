@@ -1,0 +1,9 @@
+# Share flags
+. Bonaire, Sint Eustatius and Saba
+. Bouvet Island
+. United States Minor Outlying Islands
+. Saint Martin (French part)
+. Svalbard and Jan Mayen
+
+# No flags?
+. Macao => has flag, but no capital
