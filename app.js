@@ -3,6 +3,7 @@ const cors = require("cors");
 
 const logger = require("./logger");
 const countries = require("./countries");
+const scores = require("./scores.json");
 
 const app = express();
 app.use(cors());
@@ -15,7 +16,7 @@ function random() {
 }
 
 app.get("/", (req, res) => {
-    res.status(200).send("welcome to our app");
+    res.status(200).send(`Welcome to our app, there are ${countries.length} countries and territories.`);
 })
 
 app.get("/countries", (req, res) => {
@@ -37,11 +38,14 @@ app.get("/countries/:id", (req, res) => {
     }
 })
 
-// Potentially useful code ?
-// app.post("/countries", (req, res) => {
-//     const newCountry = req.body;
-//     countries.push(newCountry); 
-//     res.status(201).send(newCountry);
-// })
+app.get("/scores", (req, res) => {
+    res.status(200).send(scores);
+})
+
+app.post("/scores", (req, res) => {
+    const newScore = req.body;
+    scores.push(newScore);
+    res.status(201).send(newCountry);
+})
 
 module.exports = app;
