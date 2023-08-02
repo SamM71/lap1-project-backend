@@ -46,7 +46,7 @@ app.get("/scores", (req, res) => {
 app.post("/scores", (req, res) => {
     const newScore = req.body;
     scores.push(newScore);
-    res.status(201).send(newCountry);
+    res.status(201).send(newScore);
 })
 
 module.exports = app;
