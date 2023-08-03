@@ -3,7 +3,9 @@ const cors = require("cors");
 
 const logger = require("./logger");
 const countries = require("./countries");
-const scores = require("./scores.json");
+const capitalsScores = require("./capitals-scores.json");
+const countriesScores = require("./countries-scores.json");
+const flagsScores = require("./flag-scores.json");
 
 const app = express();
 app.use(cors());
@@ -38,14 +40,36 @@ app.get("/countries/:id", (req, res) => {
     }
 })
 
-app.get("/scores", (req, res) => {
-    scores.sort((a, b) => (b.score - a.score));
-    res.status(200).send(scores);
+app.get("/capitals_scores", (req, res) => {
+    capitalsScores.sort((a, b) => (b.score - a.score));
+    res.status(200).send(capitalsScores);
 })
 
-app.post("/scores", (req, res) => {
+app.post("/capitals_scores", (req, res) => {
     const newScore = req.body;
-    scores.push(newScore);
+    capitalsScores.push(newScore);
+    res.status(201).send(newScore);
+})
+
+app.get("/countries_scores", (req, res) => {
+    countriesScores.sort((a, b) => (b.score - a.score));
+    res.status(200).send(countriesScores);
+})
+
+app.post("/countries_scores", (req, res) => {
+    const newScore = req.body;
+    countriesScores.push(newScore);
+    res.status(201).send(newScore);
+})
+
+app.get("/flags_scores", (req, res) => {
+    flagsScores.sort((a, b) => (b.score - a.score));
+    res.status(200).send(flagsScores);
+})
+
+app.post("/flags_scores", (req, res) => {
+    const newScore = req.body;
+    flagsScores.push(newScore);
     res.status(201).send(newScore);
 })
 
