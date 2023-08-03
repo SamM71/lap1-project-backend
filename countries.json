@@ -42,7 +42,8 @@
     {
     "name": "Antigua and Barbuda",
     "capital": "Saint John's",
-    "flag": "https://flagpedia.net/data/flags/h80/ag.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ag.webp",
+    "alt": ["Antigua & Barbuda"]
     },
     {
     "name": "Argentina",
@@ -127,17 +128,20 @@
     {
     "name": "Bolivia (Plurinational State of)",
     "capital": "Sucre",
-    "flag": "https://flagpedia.net/data/flags/h80/bo.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/bo.webp",
+    "alt": ["Bolivia", "Plurinational State of Bolivia"]
     },
     {
     "name": "Bonaire, Sint Eustatius and Saba",
     "capital": "Kralendijk",
-    "flag": "https://flagpedia.net/data/flags/h80/bq.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/bq.webp",
+    "alt": ["Bonaire, Sint Eustatius & Saba", "Caribbean Netherlands"]
     },
     {
     "name": "Bosnia and Herzegovina",
     "capital": "Sarajevo",
-    "flag": "https://flagpedia.net/data/flags/h80/ba.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ba.webp",
+    "alt": ["Bosnia & Herzegovina"]
     },
     {
     "name": "Botswana",
@@ -167,12 +171,14 @@
     {
     "name": "Virgin Islands (British)",
     "capital": "Road Town",
-    "flag": "https://flagpedia.net/data/flags/h80/vg.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/vg.webp",
+    "alt": ["British Virgin Islands"]
     },
     {
     "name": "Virgin Islands (U.S.)",
     "capital": "Charlotte Amalie",
-    "flag": "https://flagpedia.net/data/flags/h80/vi.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/vi.webp",
+    "alt": ["U.S. Virgin Islands", "US Virgin Islands", "United States Virgin Islands"]
     },
     {
     "name": "Brunei Darussalam",
@@ -247,7 +253,8 @@
     {
     "name": "Cocos (Keeling) Islands",
     "capital": "West Island",
-    "flag": "https://flagpedia.net/data/flags/h80/cc.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/cc.webp",
+    "alt": ["Cocos Islands"]
     },
     {
     "name": "Colombia",
@@ -267,7 +274,8 @@
     {
     "name": "Congo (Democratic Republic of the)",
     "capital": "Kinshasa",
-    "flag": "https://flagpedia.net/data/flags/h80/cd.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/cd.webp",
+    "alt": ["Democratic Republic of the Congo", "Congo (Democratic Republic)"]
     },
     {
     "name": "Cook Islands",
@@ -362,7 +370,8 @@
     {
     "name": "Falkland Islands (Malvinas)",
     "capital": "Stanley",
-    "flag": "https://flagpedia.net/data/flags/h80/fk.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/fk.webp",
+    "alt": ["Falkland Islands", "The Falklands"]
     },
     {
     "name": "Faroe Islands",
@@ -472,7 +481,8 @@
     {
     "name": "Guinea-Bissau",
     "capital": "Bissau",
-    "flag": "https://flagpedia.net/data/flags/h80/gw.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/gw.webp",
+    "alt": ["Guinea Bissau"]
     },
     {
     "name": "Guyana",
