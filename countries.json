@@ -371,7 +371,7 @@
     "name": "Falkland Islands (Malvinas)",
     "capital": "Stanley",
     "flag": "https://flagpedia.net/data/flags/h80/fk.webp",
-    "alt": ["Falkland Islands", "The Falklands"]
+    "alt": ["Falkland Islands", "The Falklands", "Falklands", "Isla Malvinas"]
     },
     {
     "name": "Faroe Islands",
@@ -497,12 +497,14 @@
     {
     "name": "Heard Island and McDonald Islands",
     "capital": "NA",
-    "flag": "https://flagpedia.net/data/flags/h80/hm.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/hm.webp",
+    "alt": ["Heard Island & McDonald Islands"]
     },
     {
     "name": "Holy See",
     "capital": "Vatican City",
-    "flag": "https://flagpedia.net/data/flags/h80/va.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/va.webp",
+    "alt": ["The Holy See", "Vatican City", "Vatican City State"]
     },
     {
     "name": "Honduras",
@@ -542,7 +544,8 @@
     {
     "name": "Iran (Islamic Republic of)",
     "capital": "Tehran",
-    "flag": "https://flagpedia.net/data/flags/h80/ir.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ir.webp",
+    "alt": ["Iran", "Islamic Republic of Iran"]
     },
     {
     "name": "Iraq",
@@ -617,7 +620,8 @@
     {
     "name": "Lao People's Democratic Republic",
     "capital": "Vientiane",
-    "flag": "https://flagpedia.net/data/flags/h80/la.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/la.webp",
+    "alt": ["Laos"]
     },
     {
     "name": "Latvia",
@@ -667,7 +671,8 @@
     {
     "name": "Macedonia (the former Yugoslav Republic of)",
     "capital": "Skopje",
-    "flag": "https://flagpedia.net/data/flags/h80/mk.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/mk.webp",
+    "alt": ["Macedonia", "North Macedonia", "Republic of North Macedonia"]
     },
     {
     "name": "Madagascar",
@@ -732,12 +737,14 @@
     {
     "name": "Micronesia (Federated States of)",
     "capital": "Palikir",
-    "flag": "https://flagpedia.net/data/flags/h80/fm.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/fm.webp",
+    "alt": ["Micronesia", "The Federated States of Micronesia", "Micronesia (Federated States)"]
     },
     {
     "name": "Moldova (Republic of)",
     "capital": "Chisinau",
-    "flag": "https://flagpedia.net/data/flags/h80/md.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/md.webp",
+    "alt": ["Moldova", "Republic of Moldova"]
     },
     {
     "name": "Monaco",
@@ -832,7 +839,8 @@
     {
     "name": "Korea (Democratic People's Republic of)",
     "capital": "Pyongyang",
-    "flag": "https://flagpedia.net/data/flags/h80/kp.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/kp.webp",
+    "alt": ["North Korea", "Democratic People's Republic of Korea", "N. Korea"]
     },
     {
     "name": "Northern Mariana Islands",
@@ -862,7 +870,8 @@
     {
     "name": "Palestine, State of",
     "capital": "Ramallah",
-    "flag": "https://flagpedia.net/data/flags/h80/ps.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ps.webp",
+    "alt": ["Palestine", "State of Palestine"]
     },
     {
     "name": "Panama",
@@ -917,7 +926,8 @@
     {
     "name": "Republic of Kosovo",
     "capital": "Pristina",
-    "flag": "https://flagpedia.net/data/flags/h80/xk.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/xk.webp",
+    "alt": ["Kosovo"]
     },
     {
     "name": "Reunion",
@@ -932,7 +942,8 @@
     {
     "name": "Russian Federation",
     "capital": "Moscow",
-    "flag": "https://flagpedia.net/data/flags/h80/ru.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ru.webp",
+    "alt": ["Russia"]
     },
     {
     "name": "Rwanda",
@@ -947,12 +958,14 @@
     {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
     "capital": "Jamestown",
-    "flag": "https://flagpedia.net/data/flags/h80/sh.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/sh.webp",
+    "alt": ["Saint Helena", "Ascension Island", "Tristan da Cunha", "Ascension", "Saint Helena, Ascension & Tristan da Cunha"]
     },
     {
     "name": "Saint Kitts and Nevis",
     "capital": "Basseterre",
-    "flag": "https://flagpedia.net/data/flags/h80/kn.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/kn.webp",
+    "alt": ["Saint Kitts & Nevis"]
     },
     {
     "name": "Saint Lucia",
@@ -962,17 +975,20 @@
     {
     "name": "Saint Martin (French part)",
     "capital": "Marigot",
-    "flag": "https://flagpedia.net/data/flags/h80/mf.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/mf.webp",
+    "alt": ["Saint Martin"]
     },
     {
     "name": "Saint Pierre and Miquelon",
     "capital": "Saint-Pierre",
-    "flag": "https://flagpedia.net/data/flags/h80/pm.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/pm.webp",
+    "alt": ["Saint Pierre & Miquelon"]
     },
     {
     "name": "Saint Vincent and the Grenadines",
     "capital": "Kingstown",
-    "flag": "https://flagpedia.net/data/flags/h80/vc.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/vc.webp",
+    "alt": ["Saint Vincent & the Grenadines"]
     },
     {
     "name": "Samoa",
@@ -987,7 +1003,8 @@
     {
     "name": "Sao Tome and Principe",
     "capital": "Sao Tome",
-    "flag": "https://flagpedia.net/data/flags/h80/st.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/st.webp",
+    "alt": ["Sao Tome & Principe"]
     },
     {
     "name": "Saudi Arabia",
@@ -1022,7 +1039,8 @@
     {
     "name": "Sint Maarten (Dutch part)",
     "capital": "Philipsburg",
-    "flag": "https://flagpedia.net/data/flags/h80/sx.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/sx.webp",
+    "alt": ["Sint Maarten"]
     },
     {
     "name": "Slovakia",
@@ -1052,12 +1070,14 @@
     {
     "name": "South Georgia and the South Sandwich Islands",
     "capital": "King Edward Point",
-    "flag": "https://flagpedia.net/data/flags/h80/gs.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/gs.webp",
+    "alt": ["South Georgia & the South Sandwich Islands"]
     },
     {
     "name": "Korea (Republic of)",
     "capital": "Seoul",
-    "flag": "https://flagpedia.net/data/flags/h80/kr.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/kr.webp",
+    "alt": ["South Korea", "Republic of Korea", "S. Korea"]
     },
     {
     "name": "South Sudan",
@@ -1087,7 +1107,8 @@
     {
     "name": "Svalbard and Jan Mayen",
     "capital": "Longyearbyen",
-    "flag": "https://flagpedia.net/data/flags/h80/sj.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/sj.webp",
+    "alt": ["Svalbard & Jan Mayen"]
     },
     {
     "name": "Swaziland",
@@ -1107,7 +1128,8 @@
     {
     "name": "Syrian Arab Republic",
     "capital": "Damascus",
-    "flag": "https://flagpedia.net/data/flags/h80/sy.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/sy.webp",
+    "alt": ["Syria"]
     },
     {
     "name": "Taiwan",
@@ -1122,7 +1144,8 @@
     {
     "name": "Tanzania, United Republic of",
     "capital": "Dodoma",
-    "flag": "https://flagpedia.net/data/flags/h80/tz.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/tz.webp",
+    "alt": ["Tanzania", "United Republic of Tanzania"]
     },
     {
     "name": "Thailand",
@@ -1132,7 +1155,8 @@
     {
     "name": "Timor-Leste",
     "capital": "Dili",
-    "flag": "https://flagpedia.net/data/flags/h80/tl.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/tl.webp",
+    "alt": ["Timor Leste", "East Timor", "Democratic Republic of Timor-Leste"]
     },
     {
     "name": "Togo",
@@ -1152,7 +1176,8 @@
     {
     "name": "Trinidad and Tobago",
     "capital": "Port of Spain",
-    "flag": "https://flagpedia.net/data/flags/h80/tt.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/tt.webp",
+    "alt": ["Trinidad & Tobago", "Trinidad", "Tobago"]
     },
     {
     "name": "Tunisia",
@@ -1172,7 +1197,8 @@
     {
     "name": "Turks and Caicos Islands",
     "capital": "Cockburn Town",
-    "flag": "https://flagpedia.net/data/flags/h80/tc.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/tc.webp",
+    "alt": ["Turks Islands", "Caicos Islands", "Turks & Caicos Islands"]
     },
     {
     "name": "Tuvalu",
@@ -1192,17 +1218,20 @@
     {
     "name": "United Arab Emirates",
     "capital": "Abu Dhabi",
-    "flag": "https://flagpedia.net/data/flags/h80/ae.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ae.webp",
+    "alt": ["UAE"]
     },
     {
     "name": "United Kingdom of Great Britain and Northern Ireland",
     "capital": "London",
-    "flag": "https://flagpedia.net/data/flags/h80/gb.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/gb.webp",
+    "alt": ["United Kingdom", "UK", "U.K."]
     },
     {
     "name": "United States of America",
     "capital": "Washington, D.C.",
-    "flag": "https://flagpedia.net/data/flags/h80/us.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/us.webp",
+    "alt": ["United States", "America", "USA", "U.S.A", "U.S."]
     },
     {
     "name": "Uruguay",
@@ -1222,17 +1251,20 @@
     {
     "name": "Venezuela (Bolivarian Republic of)",
     "capital": "Caracas",
-    "flag": "https://flagpedia.net/data/flags/h80/ve.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ve.webp",
+    "alt": ["Venezuela", "Bolivarian Republic of Venezuela"]
     },
     {
     "name": "Viet Nam",
     "capital": "Hanoi",
-    "flag": "https://flagpedia.net/data/flags/h80/vn.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/vn.webp",
+    "alt": ["Vietnam"]
     },
     {
     "name": "Wallis and Futuna",
     "capital": "Mata-Utu",
-    "flag": "https://flagpedia.net/data/flags/h80/wf.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/wf.webp",
+    "alt": ["Wallis & Futuna"]
     },
     {
     "name": "Western Sahara",
