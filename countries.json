@@ -135,7 +135,7 @@
     "name": "Bonaire, Sint Eustatius and Saba",
     "capital": "Kralendijk",
     "flag": "https://flagpedia.net/data/flags/h80/bq.webp",
-    "alt": ["Bonaire, Sint Eustatius & Saba", "Caribbean Netherlands"]
+    "alt": ["Bonaire, Sint Eustatius & Saba", "Caribbean Netherlands", "Bonaire", "Sint Eustatius"]
     },
     {
     "name": "Bosnia and Herzegovina",
@@ -150,7 +150,7 @@
     },
     {
     "name": "Bouvet Island",
-    "capital": "NA",
+    "capital": "Bouvet Island",
     "flag": "https://flagpedia.net/data/flags/h80/bv.webp"
     },
     {
@@ -165,7 +165,7 @@
     },
     {
     "name": "United States Minor Outlying Islands",
-    "capital": "NA",
+    "capital": "U.S. Minor Outlying Islands",
     "flag": "https://flagpedia.net/data/flags/h80/um.webp"
     },
     {
@@ -275,7 +275,7 @@
     "name": "Congo (Democratic Republic of the)",
     "capital": "Kinshasa",
     "flag": "https://flagpedia.net/data/flags/h80/cd.webp",
-    "alt": ["Democratic Republic of the Congo", "Congo (Democratic Republic)"]
+    "alt": ["Democratic Republic of the Congo", "Congo (Democratic Republic)", "Congo DR"]
     },
     {
     "name": "Cook Islands",
@@ -496,7 +496,7 @@
     },
     {
     "name": "Heard Island and McDonald Islands",
-    "capital": "NA",
+    "capital": "Heard Island and McDonald Islands",
     "flag": "https://flagpedia.net/data/flags/h80/hm.webp",
     "alt": ["Heard Island & McDonald Islands"]
     },
@@ -513,7 +513,7 @@
     },
     {
     "name": "Hong Kong",
-    "capital": "City of Victoria",
+    "capital": "Hong Kong",
     "flag": "https://flagpedia.net/data/flags/h80/hk.webp"
     },
     {
@@ -539,7 +539,8 @@
     {
     "name": "Cote d'Ivoire",
     "capital": "Yamoussoukro",
-    "flag": "https://flagpedia.net/data/flags/h80/ci.webp"
+    "flag": "https://flagpedia.net/data/flags/h80/ci.webp",
+    "alt": ["Ivory Coast"]
     },
     {
     "name": "Iran (Islamic Republic of)",
@@ -665,7 +666,7 @@
     },
     {
     "name": "Macao",
-    "capital": "NA",
+    "capital": "Macao",
     "flag": "https://flagpedia.net/data/flags/h80/mo.webp"
     },
     {
@@ -1219,7 +1220,7 @@
     "name": "United Arab Emirates",
     "capital": "Abu Dhabi",
     "flag": "https://flagpedia.net/data/flags/h80/ae.webp",
-    "alt": ["UAE"]
+    "alt": ["UAE", "U.A.E"]
     },
     {
     "name": "United Kingdom of Great Britain and Northern Ireland",
